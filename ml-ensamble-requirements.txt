@@ -1,0 +1,22 @@
+# Core scientific stack
+python==3.11          # versión estable y compatible con NumPy 2.x
+numpy==2.0.2          # cálculo numérico de alto rendimiento
+pandas==2.2.2         # manipulación y análisis de datos tabulares
+scipy==1.14.1         # métodos científicos y estadísticos
+
+# Machine Learning
+scikit-learn==1.5.2   # algoritmos de regresión, regularización y ensambles
+
+# Visualization
+matplotlib==3.8.4     # gráficos y visualización básica
+seaborn==0.13.2       # visualización estadística complementaria
+
+# Performance helpers
+numexpr==2.10.1       # evaluación eficiente de expresiones numéricas
+bottleneck==1.4.0     # optimización de operaciones numéricas en pandas
+
+# Notebook / Kernel support
+ipykernel==6.29.5     # permite usar el entorno como kernel en Jupyter
+
+# Optional: reproducibilidad y buenas prácticas
+joblib==1.4.2         # serialización y paralelización de modelos
